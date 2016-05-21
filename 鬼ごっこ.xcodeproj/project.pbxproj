@@ -13,6 +13,8 @@
 		7FE93B3B1B626FB100417832 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FE93B3A1B626FB100417832 /* Images.xcassets */; };
 		7FE93B3E1B626FB100417832 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FE93B3C1B626FB100417832 /* LaunchScreen.xib */; };
 		7FE93B4A1B626FB100417832 /* _____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FE93B491B626FB100417832 /* _____Tests.swift */; };
+		7FE93B541B62701800417832 /* 背景.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7FE93B531B62701800417832 /* 背景.jpg */; };
+		7FE93B561B62704A00417832 /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FE93B551B62704A00417832 /* normal.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		7FE93B431B626FB100417832 /* 鬼ごっこTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "鬼ごっこTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FE93B481B626FB100417832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7FE93B491B626FB100417832 /* _____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____Tests.swift"; sourceTree = "<group>"; };
+		7FE93B531B62701800417832 /* 背景.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "背景.jpg"; sourceTree = "<group>"; };
+		7FE93B551B62704A00417832 /* normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = normal.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		7FE93B311B626FB100417832 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7FE93B551B62704A00417832 /* normal.png */,
+				7FE93B531B62701800417832 /* 背景.jpg */,
 				7FE93B321B626FB100417832 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -156,6 +162,8 @@
 		7FE93B261B626FB100417832 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "reo harada";
 				TargetAttributes = {
@@ -192,6 +200,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FE93B541B62701800417832 /* 背景.jpg in Resources */,
+				7FE93B561B62704A00417832 /* normal.png in Resources */,
 				7FE93B391B626FB100417832 /* Main.storyboard in Resources */,
 				7FE93B3E1B626FB100417832 /* LaunchScreen.xib in Resources */,
 				7FE93B3B1B626FB100417832 /* Images.xcassets in Resources */,
@@ -409,6 +419,7 @@
 				7FE93B4F1B626FB100417832 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7FE93B501B626FB100417832 /* Build configuration list for PBXNativeTarget "鬼ごっこTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +428,7 @@
 				7FE93B521B626FB100417832 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
